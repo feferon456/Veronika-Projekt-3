@@ -1,0 +1,71 @@
+@charset "utf-8";
+/* CSS Document */
+@font-face {
+    font-family: "VeronikaHorak";
+	src:url("Veronika_Horak_grupa_B.ttf") format("truetype");
+}
+ .header1 {
+    font-family: "VeronikaHorak", sans-serif;
+    color: #F2B8FF;
+    font-size: 48px; 
+    text-align: center;
+}
+body {
+    text-align: center;
+	background-image: url("PROJEKT_3/page_bg_raw.jpg");
+	background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+p { 
+	color:#6527f5;
+	font:Berlin Sans FB Demi;
+	font-size: 18px;
+	line-height: 18px;
+	width: 600px;
+	background-color: #e0cdfc;
+	padding: 20px;
+	margin: 20px auto;
+ }
+ h1, h2 {
+	text-align: center;
+	color:#F2B8FF;
+	font: Bahnschrift Condensed;
+	font-size:26px;
+ }
+ 
+a:link {
+	color:#340d54;
+	font-size: 14px;
+	line-height:18px;
+	background-color: #e0bdfc;
+	padding: 3px;
+	border: 1px solid #811491
+}
+a:hover {
+	color:#1e0830;
+	font-size: 14px;
+	line-height:18px;
+	background-color: #ac8dc4;
+	padding: 3px;
+	border: 1px solid #811491
+}
+ul {
+    list-style-type: none;
+    padding: 10px;
+    margin: 0;
+}
+
+ul li {
+    display: inline-block;
+    margin: 0 15px;
+}
+image-row {
+    display: flex;
+    justify-content: center; 
+    gap: 25px;              
+    margin: 20px 0;
+	
+
